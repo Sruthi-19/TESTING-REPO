@@ -1,0 +1,104 @@
+#h1{
+    margin: 0%;
+}
+#home-page{
+    margin-top: 10%;
+    text-align: center;
+}
+
+#input-button{
+    justify-content: center;
+    display: flex;
+    column-gap: 5px;
+}
+
+#input-box{
+    width: 200px;
+    background-color:#1a1a1a;
+    color: rgba(255, 255, 255, 0.87);
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+
+#dashboard{
+    display: flex;
+    flex-direction: column;
+}
+
+#user-info-overall{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+#user-info-sub{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+#username-follower{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+}
+
+#img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+#button{
+    background-color: rgba(255, 255, 255, 0.87);
+    color: #1a1a1a;
+}
+
+#repos-overall{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: center;
+
+}
+#repo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    width: 300px;
+    height: 100px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#followers-list-overall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+#followers-container{
+    width: 250px;
+    border: 1px solid rgba(255, 255, 255, 0.87);
+    background-color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+
+}
+
+#followers-container-sub{
+    display: flex;
+    flex-direction: column;row-gap: 5px;
+}
